@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'sudo docker version'
+                sh 'docker version'
             }
         }
     }
